@@ -1,0 +1,42 @@
+.badge {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: var(--badge);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+}
+
+.nav__notification {
+  position: absolute;
+  margin: -8px 17px;
+  animation: rotateY 1s ease-in-out infinite;
+}
+
+#point {
+  background-color: var(--badge);
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  margin-left: 134px;
+  margin-top: -20px;
+  animation: rotateY 1s ease-in-out infinite;
+}
+
+#point2 {
+  background-color: var(--badge);
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  margin: -30px 0px 0px 26px;
+  display: flex;
+  position: absolute;
+  animation: rotateY 1s linear infinite; 
+}
+

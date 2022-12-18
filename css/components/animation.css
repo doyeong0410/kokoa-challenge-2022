@@ -1,0 +1,163 @@
+#rotate:hover {
+  animation: rotate 1s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-row__icon, .friends-screen__channel, .open-post {
+  animation: fadein 2s linear;
+}
+
+@keyframes iconhover {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header i:hover, .nav i:hover {
+  animation: iconhover 1s ease-in-out infinite;
+}
+
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartbeat 1s linear infinite;
+}
+
+@keyframes fadein {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+  }
+  to {
+      opacity: 1;
+      transform: translateZ(0);
+  }
+}
+
+.user-component {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+@keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+    background-color: var(--mc);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes color {
+  0% {
+    color: var(--badge);
+  }
+  100% {
+    color: var(--mc);
+  }
+}
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+}
+
+@keyframes fadeInMove {
+  0% {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+  }
+  30% {
+      opacity: 1;
+      transform: translateZ(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translate3d(100%, 0, 0);
+}
+  100% {
+    opacity: 0.7;
+    transform: rotateY(180deg)
+}
+}
+
+#splash-screen {
+  z-index: 101;
+  background-color: var(--oc);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+#splash-screen i {
+  animation: fadeInLeft 1s ease-in-out;
+}

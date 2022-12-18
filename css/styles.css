@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:wght@400;600&display=swap');
+
+
+@import "reset.css";
+@import "variables.css";
+
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/animation.css";
+@import "components/no-mobile.css";
+
+
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/cog.css";
+@import "screens/chat.css";
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2C2F34;
+  height: 140vh;
+  background-color: var(--bg);
+}
+ body::-webkit-scrollbar {
+    width: 1px;
+  }
+ body::-webkit-scrollbar-thumb {
+    background-color: var(--mc);
+    border-radius: 10px;
+  }
+body::-webkit-scrollbar-track {
+    background-color: #adadad;
+    border-radius: 10px;
+  }

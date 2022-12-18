@@ -1,0 +1,22 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(231, 230, 230);
+  padding: 20px 50px;
+  box-sizing: border-box;
+  color: var(--wc);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+
+#btn-color {
+  color: var(--mc);
+}

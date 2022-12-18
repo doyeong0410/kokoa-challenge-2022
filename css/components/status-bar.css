@@ -1,0 +1,25 @@
+.status-bar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg);
+  z-index: 100;
+  color: var(--sb);
+}
+
+.status-bar__column {
+  padding: 10px;
+  position: relative;
+}
+
+.status-bar__column i {
+  margin-left: 3px;
+}
+
+.status-bar span {
+  font-weight: 600;
+  font-size: 18px;
+}

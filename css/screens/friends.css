@@ -1,0 +1,47 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+#friends-display-link i {
+  color: hsla(0, 0%, 0%, 0.302);
+}
+
+.friends-screen__channel {
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--orange);
+}
+.friends-screen__channel-header span {
+  color: var(--orange)
+}
+
+.friends-h6 {
+  margin-top: 10px;
+  color: var(--orange);
+}
+
+.friends-span {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 18px;
+  color: var(--omc);
+}
+
+.recommended-friends {
+  margin-top: 40px;
+  border-top: 1px solid var(--orange);
+  font-weight: 600;
+}

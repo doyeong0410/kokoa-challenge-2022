@@ -1,0 +1,29 @@
+#double1 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-color: var(--wc);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mc);
+  margin-bottom: 35px;
+}
+#double2 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-color: var(--wc);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mc);
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+#text {
+  margin-left: 85px;
+}

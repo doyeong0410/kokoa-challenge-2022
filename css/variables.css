@@ -1,0 +1,11 @@
+:root {
+  --mc: #2AC1BC;
+  --omc: #2ac1bcbd;
+  --oc: #2ac1bc21;
+  --badge: rgb(255, 162, 40);
+  --sb: #2C2F34;
+  --wc: white;
+  --bg: rgb(248, 247, 247);
+  --orange: rgba(255, 162, 40, 0.692);
+  --solid: rgba(255, 162, 40, 0.301);
+}
