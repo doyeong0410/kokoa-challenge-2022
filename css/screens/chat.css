@@ -1,5 +1,10 @@
 #chat-margin {
-  margin-left: 12px;
+  margin-left: 0px;
+}
+
+.main-chat {
+ display: flex;
+ flex-direction: column;
 }
 
 #body-background {
@@ -9,6 +14,8 @@
 
 .main-chat__title {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-chat__title span:nth-child(2) {
@@ -19,12 +26,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 14px;
+  padding: 15px 10px;
+  margin: 0px 60px;
   text-align: center;
   background-color: rgba(97, 97, 97, 0.664);
   border-radius: 40px;
   font-weight: 600;
-  margin: 0px 120px;
   color: var(--badge);
   animation: fadein 1s ease-in-out;
 }
@@ -38,28 +45,27 @@
 }
 
 #chat-avartar {
-  width: 60px;
-  height: 60px;
+  padding: 10px 10px;
   background-color: var(--wc);
-  border-radius: 30px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
   color: var(--mc);
-  margin-right: 15px;
 }
 
 .chat-content__conetens {
   background-color: var(--orange);
-  padding: 10px;
+  padding: 5px 0px;
   font-size: 18px;
   border-radius: 15px;
-  width: 100%;
+  width: 95%;
   border-top-left-radius: 0px;
   color: var(--badge);
   text-align: center;
   color: var(--sb);
+  line-height: 1.2;
 }
 
 .chat-content__main {
@@ -69,11 +75,12 @@
 .chat-column {
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 
 .chat-content__time {
-  margin-top: 49px;
-  margin-left: 25px;
+  margin-top: 64px;
+  margin-right: 25px;
   font-size: 15px;
   color: var(--badge);
 }
@@ -124,10 +131,11 @@
 
 .reply input {
   border-radius: 20px;
-  border-color: rgba(0, 0, 0, 0.459);
+  border-color: var(--sb);
   padding: 9px 0px 9px 15px;
   width: 100%;
   box-sizing: border-box;
+  border: none;
 }
 
 .reply__column:last-child > i,
@@ -156,11 +164,17 @@
 
 .reply input:focus {
   width: 92vw;
-  transform: translateX(-9%) translateY(-81px);
+  transform: translateX(-9%) translateY(-1px);
+  border: 2px solid var(--badge);
+  transition: border-color 0.5s linear;
 }
 
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-smile-wink,
 .reply:focus-within button {
   opacity: 0;
+}
+
+#chat-size {
+  height: 110vh;
 }

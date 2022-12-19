@@ -25,7 +25,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #2C2F34;
-  height: 140vh;
   background-color: var(--bg);
 }
  body::-webkit-scrollbar {

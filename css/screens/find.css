@@ -2,6 +2,10 @@
 margin: 20px 20px;
 }
 
+#find-size {
+  height: 100vh;
+}
+
 .icon-row {
   display: flex;
   justify-content: space-between;
@@ -110,4 +114,26 @@ margin: 20px 20px;
 #border {
   margin-top: 15px;
   border-bottom: 1px solid var(--orange);
+}
+
+
+.recommended-friends {
+  margin-top: 20px;
+  border-top: 1px solid var(--orange);
+  font-weight: 600;
+}
+
+
+.friends-h6 {
+  margin-top: 10px;
+  color: var(--orange);
+}
+
+.friends-span {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+  color: var(--omc);
 }

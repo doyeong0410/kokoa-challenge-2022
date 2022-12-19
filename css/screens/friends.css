@@ -13,10 +13,10 @@
 }
 
 .friends-screen__channel {
-  padding-top: 15px;
+  padding: 5px 0px;
 }
 .friends-screen__channel-header {
-  padding: 0px 20px;
+  padding: 5px 20px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,22 +26,6 @@
   color: var(--orange)
 }
 
-.friends-h6 {
-  margin-top: 10px;
-  color: var(--orange);
-}
-
-.friends-span {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-  font-size: 18px;
-  color: var(--omc);
-}
-
-.recommended-friends {
-  margin-top: 40px;
-  border-top: 1px solid var(--orange);
-  font-weight: 600;
+#friend-size {
+  height: 140vh;
 }

@@ -24,7 +24,7 @@
   border-radius: 5px;
   display: flex;
   position: absolute;
-  margin-left: 134px;
+  margin-left: 128px;
   margin-top: -20px;
   animation: rotateY 1s ease-in-out infinite;
 }

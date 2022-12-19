@@ -6,6 +6,10 @@
   font-size: 25px;
 }
 
+#cog {
+  height: 110vh;
+}
+
 .notice {
   padding: 0px 20px;
   font-size: 22px;
