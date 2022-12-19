@@ -4,6 +4,9 @@
   align-items: center;
   font-weight: 600;
   font-size: 25px;
+  position: sticky;
+  top: 40px;
+  z-index: 100;
 }
 
 #cog {

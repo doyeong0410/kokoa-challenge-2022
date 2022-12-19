@@ -12,7 +12,9 @@
   display: flex;
   justify-content: space-between;
   position: sticky;
-  top: auto;
+  top: 40px;
+  align-items: center;
+  z-index: 100;
 }
 
 .chat-time {
