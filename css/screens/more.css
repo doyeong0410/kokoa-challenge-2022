@@ -2,6 +2,11 @@
   border-bottom: none;
 }
 
+#paper {
+  color: var(--badge);
+  transition: color 5s ease-in-out;
+}
+
 #more-size {
   height: 80vh
 }
